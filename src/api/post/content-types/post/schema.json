@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Historical",
+        "Landscape",
+        "Abstract",
+        "Oil Painting",
+        "Portrait"
+      ]
+    },
+    "usd_price": {
+      "type": "integer"
+    },
+    "bdt_price": {
+      "type": "integer"
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "art": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "trending": {
+      "type": "boolean"
+    },
+    "featured": {
+      "type": "boolean"
+    }
+  }
+}

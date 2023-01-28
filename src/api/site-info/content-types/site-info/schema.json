@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_infos",
+  "info": {
+    "singularName": "site-info",
+    "pluralName": "site-infos",
+    "displayName": "Site Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroTop": {
+      "type": "string"
+    },
+    "HeroWriting": {
+      "type": "string"
+    },
+    "HeroBottom": {
+      "type": "string"
+    },
+    "ArtistType": {
+      "type": "string"
+    },
+    "Profession": {
+      "type": "string"
+    },
+    "InstagramLikesCount": {
+      "type": "integer"
+    },
+    "FacebookLikesCount": {
+      "type": "integer"
+    },
+    "AboutPageWriting": {
+      "type": "text"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "HomeAboutSectionWriting": {
+      "type": "text"
+    },
+    "facebookLink": {
+      "type": "string"
+    },
+    "pinterestLink": {
+      "type": "string"
+    },
+    "youtubeLink": {
+      "type": "string"
+    },
+    "instagramLink": {
+      "type": "string"
+    }
+  }
+}
